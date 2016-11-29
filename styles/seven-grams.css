@@ -1,0 +1,36 @@
+.seven-gramsHeader{
+  background: rgba(0, 0, 0, 0.95);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left:0;
+  height:60px;
+  width:100%;
+  color: #ffffff;
+}
+.headerWordsContainer{
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  height: 28px;
+  width: 633px;
+  position: absolute;
+  left: 141px;
+  top: 15px;
+}
+.headerWordsWrapper{
+  padding: 0 5px;
+  text-align: center;
+}
+.headerWords{
+  text-align: center;
+  display: inline-block;
+  padding: 0 10px;
+  line-height: 28px;
+}
