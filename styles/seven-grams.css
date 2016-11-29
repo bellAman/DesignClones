@@ -8,10 +8,10 @@
   height:60px;
   width:100%;
   color: #ffffff;
+  justify-content: center;
+  display: flex;
 }
 .headerWordsContainer{
-  font-size: 10px;
-  font-family: Arial, Helvetica, sans-serif;
   display: flex;
   vertical-align: baseline;
   margin: 0;
@@ -20,9 +20,10 @@
   outline: 0;
   height: 28px;
   width: 633px;
-  position: absolute;
-  left: 141px;
-  top: 15px;
+  align-self: center;
+  position: relative;
+  left: 41px;
+  /*top: 15px;*/
 }
 .headerWordsWrapper{
   padding: 0 5px;
@@ -30,7 +31,42 @@
 }
 .headerWords{
   text-align: center;
-  display: inline-block;
+  display: flex;
+  font-size: 11px;
+  font-family: Arial, Helvetica, sans-serif;
   padding: 0 10px;
   line-height: 28px;
+}
+.logoWrapper{
+  position: relative;
+  width: 98px;
+  height: 74px;
+}
+.logo{
+  position: absolute;
+  left:14px;
+  top: -10px;
+  width: 98px;
+  height: 74px;
+}
+.topBox{
+  position: relative;
+  top: 10px;
+  height: 35px;
+  min-height: 15px;
+  border: solid rgba(255, 255, 255, 1) 3px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-left: 10px;
+}
+
+.boxText{
+  margin: 5px;
+  display: flex;
+  position: relative;
+  font-size: 11px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: initial;
 }
